@@ -6,14 +6,12 @@ A starter toolkit based on [Scalable and Modular Architecture for CSS](http://sm
 
 Styles are broken down into the following groups: **Base, Layout, Modules, States, Themes**
 
-## Documentation
-See [SassDoc](http://minamarkham.github.io/sassy-starter/docs).
 
 ## Quick start
 
 1. Fork & clone the git repo, or download zip file directly.
 2. Install Sass 3.3 – `gem install sass`.
-3. Watch for changes - `sass --watch sass_dir:css_dir`.
+3. You must have SASS installed
 
 ## Directory structure
 
@@ -70,8 +68,5 @@ See [SassDoc](http://minamarkham.github.io/sassy-starter/docs).
 This toolkit is based on the work of the following fine people & projects.
 
 - [Scalable and Modular Architecture for CSS](http://smacss.com/book) (<abbr title="Scalable and Modular Architecture for CSS">SMACSS</abbr>)
-- [Lemanz](https://github.com/grayghostvisuals/lemanz)
-- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 - [Normalise.css](http://necolas.github.com/normalize.css/)
 - [Jake Archibald](http://jakearchibald.github.com/sass-ie/) for the Sass IE implementation
-- [Jen Simmons' Design Starterkit](https://github.com/jensimmons/designstarterkit)
