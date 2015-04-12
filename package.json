@@ -1,0 +1,44 @@
+{
+  "name": "sassy-starter",
+  "title": "Sassy Starter",
+  "description": "A starter toolkit based on Scalable and Modular Architecture for CSS (SMACSS) for Sass (SCSS) projects",
+  "author": {
+    "name": "Mina Markham",
+    "url": "https://github.com/minamarkham"
+  },
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/minamarkham/sassy-starter.git"
+  },
+  "homepage": "https://github.com/minamarkham/sassy-starter/",
+  "keywords": [
+    "sass",
+    "scss",
+    "doc",
+    "boilerplate",
+    "starter",
+    "grunt",
+    "smacss"
+  ],
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/minamarkham/sassy-starter/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-imagemin": "~0.7.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sassdoc": "^0.4.0"
+  }
+}
