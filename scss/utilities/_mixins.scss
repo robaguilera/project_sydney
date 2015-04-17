@@ -203,3 +203,24 @@
   background: $color;
   background: rgba($color, $percent);
 }
+
+/**
+ * Absolute Element Perfectly Centered
+ * .foobar { @include center-absolute(height, width, img-url) { ... } }
+ * Parent element must have position: relative;
+ */
+
+ @mixin center-absolute ($h, $w, $url){
+    height: $h;
+    width: $w;
+    display: block;
+    content: '';
+    background: url($url) no-repeat;
+    background-size: 100%:
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+ }

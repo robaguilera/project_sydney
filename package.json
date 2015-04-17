@@ -1,21 +1,21 @@
 {
-  "name": "sassy-starter",
-  "title": "Sassy Starter",
-  "description": "A starter toolkit based on Scalable and Modular Architecture for CSS (SMACSS) for Sass (SCSS) projects",
+  "name": "project_sydney",
+  "title": "Project Sydney",
+  "description": "A Sass toolkit to jumpstart projects.  Based on SMACSS principles",
   "author": {
-    "name": "Mina Markham",
-    "url": "https://github.com/minamarkham"
+    "name": "Robert Aguilera",
+    "url": "https://github.com/robertaguilerajr"
   },
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": {
     "type": "MIT",
     "url": "http://opensource.org/licenses/MIT"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/minamarkham/sassy-starter.git"
+    "url": "git://github.com/robertaguilerajr/project_sydney.git"
   },
-  "homepage": "https://github.com/minamarkham/sassy-starter/",
+  "homepage": "https://github.com/minamarkham/project_sydney/",
   "keywords": [
     "sass",
     "scss",
@@ -30,7 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/minamarkham/sassy-starter/issues"
+    "url": "https://github.com/robertaguilerajr/project_sydney/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
